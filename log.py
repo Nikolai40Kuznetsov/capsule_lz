@@ -38,3 +38,7 @@ plt.bar(down.index, down.High-down.Open, width2, bottom=down.Open, color=col2)
 plt.bar(down.index, down.Low-down.Close, width2, bottom=down.Close, color=col2) 
 plt.xticks(rotation=30, ha='right') 
 plt.show() 
+# сделать оси цена и дата
+# сделать декоратор
+# нормализовать main.py
+# сделать так, чтобы логи не перезаписывались, а писались все
